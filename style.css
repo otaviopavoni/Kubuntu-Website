@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.top {
+    background-color: white;
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    border-bottom: 0.1px solid rgb(243, 243, 243);
+}
+
+.logo_header {
+    height: 36px;
+}
+
+.links_top {
+    display: flex;
+    gap: 32px;
+}
+
+.links_top a {
+    color: black;
+    text-decoration: none;
+}
+
+.links_top a:hover {
+    color: #057bc2;
+}
+
+.hero {
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero_logo {
+    height: 250px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.kubuntu_welcome {
+    font-size: 80px;
+    color: #057bc2;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #057bc2;
+    font-size: 16px;
+}
+
+button:hover {
+    color: #057bc2;
+    background-color: #bde6ff;
+}
+
+.info {
+    border-top: 0.1px solid rgb(243, 243, 243);
+    display: flex;
+    gap: 4rem;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    border-bottom: 0.1px solid rgb(243, 243, 243);
+}
+
+.image {
+    width: 80px;
+}
+
+.title {
+    font-weight: 400;
+}
+
+.line {
+    width: 20%;
+    border-bottom: rgb(243, 243, 243);
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 40%;
+    align-items: center;
+    gap: 12px;
+}
+
+.block:hover .title {
+    color: #057bc2;
+}
+
+.last_version {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.1px solid rgb(243, 243, 243);
+
+}
+
+.release_image {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.lv_text {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.tech_used {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 26px;
+    border-bottom: 0.1px solid rgb(243, 243, 243);
+}
+
+.technologies_used_logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.technologies_used_logos img {
+    border: 0.1px solid rgb(243, 243, 243);
+    box-shadow: 1px 6px 10px -5px rgba(0,0,0,1);
+    border-radius: 20px;
+    opacity: 60%;
+}
+
+.technologies_used_logos img:hover {
+    opacity: 100%;
+    width: 102%;
+} 
+
+.text_kde {
+    color: #057bc2;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: rgb(26, 26, 26);
+}
+
+.footer p {
+    color: white;
+}
